@@ -1,0 +1,38 @@
+form {
+  background-color: #04aa6d;
+  z-index: 1;
+  padding: 1em;
+  width: 50%;
+  position: absolute;
+  right: 0;
+}
+
+.form {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.form input {
+  flex-basis: 90%;
+  font-size: 20px;
+  padding: 0.4em;
+  outline: none;
+  border: none;
+}
+
+.button {
+  background-color: #357ae8;
+  padding: 0.4em;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bolder;
+  flex-basis: 80px;
+  user-select: none;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,46 @@
+.container {
+  background-color: #ffd;
+  display: flex;
+  flex-flow: row wrap;
+  min-height: 80px;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.column {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.secondColumn {
+  flex-basis: 75%;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.dropdown {
+  display: flex;
+  padding: 1.5em;
+  cursor: pointer;
+}
+
+.dropdown:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.button {
+  background-color: inherit;
+  border-radius: 20px;
+  padding: 0.5em;
+  text-align: center;
+  cursor: pointer;
+  width: 180px;
+}
+
+.button:hover {
+  background-color: #04aa6d;
+  color: #fff;
+}
